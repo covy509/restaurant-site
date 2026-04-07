@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Délice Créole - Restaurant gastronomique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu de navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Le Délice Créole</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section principale -->
+    <main>
+        <!-- Bannière -->
+        <header class="hero">
+            <div class="hero-content">
+                <h1 id="top" class="restaurant-name">Le Délice Créole</h1>
+                <p class="tagline">Les saveurs authentiques des Caraïbes</p>
+            </div>
+        </header>
+
+        <!-- Présentation -->
+        <section class="presentation">
+            <div class="container">
+                <h2 class="section-title">Notre Histoire</h2>
+                <div class="presentation-content">
+                    <div class="presentation-text">
+                        <p>Fondé en 2010 par le chef Marc Antilles, <span class="highlight">Le Délice Créole</span> vous invite à un voyage culinaire unique au cœur des traditions culinaires de la Martinique, Guadeloupe et La Réunion.</p>
+                        <p>Notre restaurant familial vous accueille dans une ambiance chaleureuse et conviviale, où chaque plat raconte une histoire, celle des épices parfumées, des produits frais et de la générosité créole.</p>
+                    </div>
+                    <div class="presentation-image">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop" alt="Intérieur du restaurant" class="rounded-image shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Spécialités (liste) -->
+        <section class="specialties">
+            <div class="container">
+                <h2 class="section-title">Nos Spécialités</h2>
+                <div class="specialties-list">
+                    <div class="specialty-card">
+                        <div class="specialty-icon">🍲</div>
+                        <h3>Plats emblématiques</h3>
+                        <ul>
+                            <li>Colombo de poulet</li>
+                            <li>Boucané de porc</li>
+                            <li>Chatrou carri</li>
+                        </ul>
+                    </div>
+                    <div class="specialty-card">
+                        <div class="specialty-icon">🍹</div>
+                        <h3>Boissons exotiques</h3>
+                        <ul>
+                            <li>Planteur maison</li>
+                            <li>Ti-punch</li>
+                            <li>Jus de fruit frais</li>
+                        </ul>
+                    </div>
+                    <div class="specialty-card">
+                        <div class="specialty-icon">🎵</div>
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Soirées à thème</li>
+                            <li>Traiteur sur demande</li>
+                            <li>Musique live le vendredi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galerie avec image miniature cliquable -->
+        <section class="gallery">
+            <div class="container">
+                <h2 class="section-title">Galerie</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300&h=200&fit=crop" alt="Plat signature" class="gallery-img">
+                        <p>Notre plat signature</p>
+                    </div>
+                    <div class="gallery-item">
+                        <!-- Image miniature cliquable -->
+                        <a href="#special-dish" class="thumbnail-link">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=200&fit=crop" alt="Découvrez notre plat spécial" class="gallery-img clickable-thumbnail">
+                            <span class="thumbnail-label">Cliquez ici !</span>
+                        </a>
+                        <p>Plat du jour - Spécial chef</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=300&h=200&fit=crop" alt="Ambiance restaurant" class="gallery-img">
+                        <p>Ambiance cosy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section avec ancre interne -->
+        <section id="special-dish" class="special-dish">
+            <div class="container">
+                <div class="dish-highlight">
+                    <h2>🌟 Plat Signature : Le Colombo de homard 🌟</h2>
+                    <p>Notre chef revisite le traditionnel colombo avec du homard frais, des épices douces et du lait de coco. Un voyage gustatif inoubliable !</p>
+                    <a href="#top" class="back-to-top">↑ Retour en haut ↑</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Le Délice Créole - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
